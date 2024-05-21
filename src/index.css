@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .backdrop-root {
+    @apply absolute inset-0 -z-10;
+  }
+}

@@ -7,28 +7,34 @@ import PropTypes from "prop-types";
 const Member = ({ member }) => {
   return (
     <>
-      <div className="my-6 flex flex-row justify-between rounded-3xl bg-secondary-900 px-10 pb-4 pt-10 shadow-lg">
+      <div className="my-6 flex flex-row justify-between rounded-3xl bg-primary-900 px-10 pb-4 pt-10 shadow-lg">
         <div className="flex h-auto w-1/5 items-center justify-start">
           <img src={blankProfile} alt={member.name} className="rounded-lg" />
         </div>
         <div className="flex w-4/5 flex-col pl-8">
           <div className="mb-8 flex flex-row items-end justify-between">
-            <h2 className="text-2xl font-semibold uppercase">{member.name}</h2>
-            <p className="italic text-slate-400">{member.role}</p>
+            <h2 className="pr-4 text-base font-semibold uppercase text-text-100 md:text-xl lg:text-2xl">
+              {member.name}
+            </h2>
+            <p className="text-sm italic text-slate-400 sm:text-base">
+              {member.role}
+            </p>
           </div>
-          <p>{member.description}</p>
+          <p className="text-xs text-text-100 sm:text-base">
+            {member.description}
+          </p>
           <div className="flex flex-1">
             <div className="flex w-full items-end justify-end space-x-1">
               <a
                 href={"mailto:" + member.email}
-                className="rounded-full p-3 hover:bg-secondary-700 hover:opacity-50"
+                className="rounded-full p-3 hover:bg-secondary-700 "
               >
                 <Mail className="h-6 w-6" />
               </a>
               <a
                 href={member.linkedin}
                 target="_blank"
-                className="rounded-full p-3 hover:bg-secondary-700 hover:opacity-50"
+                className="rounded-full p-3 hover:bg-secondary-700 "
               >
                 <img
                   src={linkedin}
@@ -39,7 +45,7 @@ const Member = ({ member }) => {
               <a
                 href={member.github}
                 target="_blank"
-                className="rounded-full p-3 hover:bg-secondary-700 hover:opacity-50"
+                className="rounded-full p-3 hover:bg-secondary-700 "
               >
                 <img
                   src={github}

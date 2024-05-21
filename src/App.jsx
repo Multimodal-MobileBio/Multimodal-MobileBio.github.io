@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Background from "./components/Background";
@@ -8,19 +9,40 @@ import Footer from "./components/Footer";
 import "./index.css";
 
 function App() {
+  const backgroundRef = useRef(null);
+  const overviewRef = useRef(null);
+  const teamRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const refs = [
+    {
+      label: "Background",
+      headerRef: backgroundRef,
+    },
+    {
+      label: "Overview",
+      headerRef: overviewRef,
+    },
+    {
+      label: "Team",
+      headerRef: teamRef,
+    },
+    {
+      label: "Contact",
+      headerRef: contactRef,
+    },
+  ];
+
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Background />
-      <Overview />
-      <hr className="w-full py-0" />
-      <Team />
-      <hr className="w-full py-0" />
-      <Contact />
-      <hr className="w-full py-0" />
+    <div className="bg-background-900">
+      <Navbar refs={refs} />
+      <Hero backgroundRef={backgroundRef} />
+      <Background sectionRef={backgroundRef} />
+      <Overview sectionRef={overviewRef} />
+      <Team sectionRef={teamRef} />
+      <Contact sectionRef={contactRef} />
       <Footer />
-    </>
+    </div>
   );
 }
 
