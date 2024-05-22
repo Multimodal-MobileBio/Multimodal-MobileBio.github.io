@@ -12,20 +12,20 @@ const Overview = ({ sectionRef }) => {
     >
       {/* Methodology */}
       <div className="flex flex-row pb-8 pt-12">
-        <div className="mr-4 hidden w-1/2 items-center justify-center lg:flex">
+        <div className="mr-4 hidden w-1/2 transform items-center justify-center transition duration-300 hover:scale-105 lg:flex">
           <img
             src={methodology}
             alt="methodology"
-            className="rounded-xl border-2 border-primary-300"
+            className="rounded-xl border-2 border-primary-300 shadow-xl"
           />
         </div>
         <div className="pl-4 lg:w-1/2">
           <h4 className="mb-2 text-2xl font-medium">Methodology</h4>
-          <div className="mx-14 my-4 block items-center justify-center lg:hidden">
+          <div className="mx-14 my-4 block transform items-center justify-center transition duration-300 hover:scale-105 lg:hidden">
             <img
               src={methodology}
               alt="methodology"
-              className="rounded-xl border-2 border-primary-300"
+              className="rounded-xl border-2 border-primary-300 shadow-xl"
             />
           </div>
 
@@ -53,11 +53,11 @@ const Overview = ({ sectionRef }) => {
       <div className="flex flex-row pb-8 pt-12">
         <div className="pr-4 lg:w-1/2">
           <h4 className="mb-2 text-2xl font-medium">Federated Learning</h4>
-          <div className="mx-14 my-4 block items-center justify-center lg:hidden">
+          <div className="mx-14 my-4 block transform items-center justify-center transition duration-300 hover:scale-105 lg:hidden">
             <img
               src={federated}
               alt="federated"
-              className="rounded-xl border-2 border-primary-300"
+              className="rounded-xl border-2 border-primary-300 shadow-xl"
             />
           </div>
           <p className="text-sm italic text-text-200 lg:text-base">
@@ -72,31 +72,31 @@ const Overview = ({ sectionRef }) => {
             authentication model against unauthorized access.
           </p>
         </div>
-        <div className="ml-4 hidden w-1/2 items-center justify-center lg:flex">
+        <div className="ml-4 hidden w-1/2 transform items-center justify-center transition duration-300 hover:scale-105 lg:flex">
           <img
             src={federated}
             alt="federated"
-            className="rounded-xl border-2 border-primary-300"
+            className="rounded-xl border-2 border-primary-300 shadow-xl"
           />
         </div>
       </div>
 
       {/* Broader Impacts */}
       <div className="flex flex-row pb-8 pt-12">
-        <div className="mr-4 hidden w-1/2 items-center justify-center lg:flex">
+        <div className="mr-4 hidden w-1/2 transform items-center justify-center transition duration-300 hover:scale-105 lg:flex">
           <img
             src={broader_impacts}
             alt="broader_impacts"
-            className="rounded-xl border-2 border-primary-300"
+            className="rounded-xl border-2 border-primary-300 shadow-xl"
           />
         </div>
         <div className="pl-4 lg:w-1/2">
           <h4 className="mb-2 text-2xl font-medium">Broader Impacts</h4>
-          <div className="mx-14 my-4 block items-center justify-center lg:hidden">
+          <div className="mx-14 my-4 block transform items-center justify-center transition duration-300 hover:scale-105 lg:hidden">
             <img
               src={broader_impacts}
               alt="broader_impacts"
-              className="rounded-xl border-2 border-primary-300"
+              className="rounded-xl border-2 border-primary-300 shadow-xl"
             />
           </div>
 
