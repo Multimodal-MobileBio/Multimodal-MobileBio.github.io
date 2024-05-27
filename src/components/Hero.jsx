@@ -29,6 +29,7 @@ const Hero = ({ backgroundRef }) => {
         autoPlay
         loop
         muted
+        playsInline
         className="z-10 -mt-16 h-screen w-full object-cover opacity-30"
       />
     </div>

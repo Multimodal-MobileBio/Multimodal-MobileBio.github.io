@@ -51,7 +51,7 @@ export const teamMembers = [
     name: "Lionel Sim Wei Xian",
     role: "Student Developer",
     description:
-      "Huilun Ang, serving as a student developer, will contribute to the initial phase of the project by assisting in the development of the mobile app for data collection. His role focuses on designing and implementing user-friendly data collection features utilizing the mobile's sensors and conducting preliminary tests to refine the app's functionality.",
+      "Lionel Sim, serving as a student developer, will contribute to the initial phase of the project by assisting in the development of the mobile app for data collection. His role focuses on designing and implementing user-friendly data collection features utilizing the mobile's sensors and conducting preliminary tests to refine the app's functionality.",
     email: "lionelsimwx@gmail.com",
     github: "https://github.com/lionel-sim",
     linkedin: "https://linkedin.com/in/lionelsimwx",
@@ -61,7 +61,7 @@ export const teamMembers = [
     name: "Ang Hui Lun",
     role: "Student Developer",
     description:
-      "Huilun Ang, serving as a student developer, will contribute to the initial phase of the project by assisting in the development of the mobile app for data collection. Her role focuses on designing and implementing user-friendly data collection features utilizing the mobile's sensors and conducting preliminary tests to refine the app's functionality.",
+      "Ang Huilun, serving as a student developer, will contribute to the initial phase of the project by assisting in the development of the mobile app for data collection. Her role focuses on designing and implementing user-friendly data collection features utilizing the mobile's sensors and conducting preliminary tests to refine the app's functionality.",
     email: "huilun2000@gmail.com",
     github: "https://github.com/huilunang",
     linkedin: "https://linkedin.com/in/huilunang",
