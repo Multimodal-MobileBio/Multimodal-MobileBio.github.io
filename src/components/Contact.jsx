@@ -33,7 +33,7 @@ const Contact = ({ sectionRef }) => {
       return;
 
     location.href =
-      "mailto:placeholder@email.com?subject=[Federated-Auth]: " +
+      "mailto:paichet.ng@singaporetech.edu.sg?subject=[Federated-Auth]: " +
       formData.subject +
       "&body=" +
       "Name: " +

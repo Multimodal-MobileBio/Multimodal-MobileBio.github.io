@@ -88,7 +88,7 @@ const Navbar = ({ refs }) => {
       <div className="container relative mx-auto px-4 lg:text-sm">
         <div className="flex items-center justify-between">
           <div className="flex flex-shrink-0 items-center">
-            <img className="mr-2 h-10 w-10" src={logo} alt="Logo" />
+            {/* <img className="mr-2 h-10 w-10" src={logo} alt="Logo" /> */}
             <span className="text-xl tracking-tight text-text-100">
               Federated-Auth
             </span>
@@ -115,7 +115,7 @@ const Navbar = ({ refs }) => {
                 src={github}
               />
             </a>
-            <a
+            {/* <a
               href={github}
               download="FederatedAuth"
               target="_blank"
@@ -123,7 +123,7 @@ const Navbar = ({ refs }) => {
             >
               <Newspaper size={24} strokeWidth={1.25} />
               <span className="text-text-100">Download</span>
-            </a>
+            </a> */}
           </div>
           <div className="flex-col justify-end hover:opacity-50 md:flex lg:hidden">
             <button onClick={toggleNavbar}>
@@ -143,11 +143,11 @@ const Navbar = ({ refs }) => {
                   {item.label}
                 </li>
               ))}
-              <li className="py-3 hover:opacity-50">
+              {/* <li className="py-3 hover:opacity-50">
                 <a href={github} download="FederatedAuth" target="_blank">
                   Download
                 </a>
-              </li>
+              </li> */}
               <li className="py-3 hover:opacity-50">
                 <a
                   href="https://github.com/Multimodal-MobileBio"

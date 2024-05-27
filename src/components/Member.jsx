@@ -12,7 +12,7 @@ const Member = ({ member }) => {
           <img src={blankProfile} alt={member.name} className="rounded-lg" />
         </div>
         <div className="flex w-4/5 flex-col pl-8">
-          <div className="mb-8 flex flex-row items-end justify-between">
+          <div className="mb-8 flex flex-col items-start justify-between sm:flex-row sm:items-end">
             <h2 className="pr-4 text-base font-semibold uppercase text-text-100 md:text-xl lg:text-2xl">
               {member.name}
             </h2>
